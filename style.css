@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+    --hankem-grotesk: "Hanken Grotesk";
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+
+    --Light-red-bg: hsl(0, 100%, 67%,0.1);
+    --Orangey-yellow-bg: hsl(39, 100%, 56%,0.1);
+    --Green-teal-bg: hsl(166, 100%, 37%,0.1);
+    --Cobalt-blue-bg: hsl(234, 85%, 45%,0.1);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    background-color: white;
+    font-family: var(--hankem-grotesk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-main{
+    width: 700px;
+    background-color: white;
+    display: flex;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 20px rgb(179, 178, 178);
+}
+
+.card-result{
+    width:50% ;
+    background-color: var(--Light-royal-blue);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    
+}
+
+.card-summary{
+    width: 50%;
+    padding: 1.5rem 2rem;
+}
+
+.result-info p{
+    padding: 0 2rem;
+}
+.result-info{
+    margin-top: 1rem;
+}
+.cor-5{
+    color: var(--Light-lavender);
+}
+h2{
+    margin-bottom: 1rem;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.img-name{
+    display: flex;
+}
+.img-name img{
+    margin-right: 0.5rem;
+}
+
+.cor-1{
+    color: var(--Light-red);
+    background-color: var(--Light-red-bg);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+}
+.cor-2{
+    color: var(--Orangey-yellow);
+    background-color: var(--Orangey-yellow-bg);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+
+}
+.cor-3{
+    color: var(--Green-teal);
+    background-color: var(--Green-teal-bg);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.cor-4{
+    color: var(--Cobalt-blue);
+    background-color: var(--Cobalt-blue-bg);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+
+}
+
+.circle{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
+    background-color: var(--Light-slate-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle p{
+    font-size: 65px;
+    margin-bottom: -0.5rem;
+
+}
+
+
+
+
+button{
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+}
