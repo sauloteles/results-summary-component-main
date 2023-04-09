@@ -41,15 +41,19 @@ body{
     background-color: white;
     display: flex;
     border-radius: 1.5rem;
-    box-shadow: 5px 5px 20px rgb(179, 178, 178);
+    box-shadow: 5px 5px 20px rgb(235, 235, 235);
 }
 
 .card-result{
     width:50% ;
-    background-color: var(--Light-royal-blue);
     border-radius: 1.5rem;
     padding: 1.5rem;
     text-align: center;
+    background-image: linear-gradient(
+        var(--Light-slate-blue),
+        var(--Light-royal-blue)
+
+    );
     
 }
 
@@ -117,20 +121,20 @@ h2{
     width: 200px;
     height: 200px;
     border-radius: 10rem;
-    background-color: var(--Light-slate-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(
+        var(--Violet-blue),
+        var(--Persian-blue)
+    );
 }
 .circle p{
     font-size: 65px;
     margin-bottom: -0.5rem;
 
 }
-
-
-
 
 button{
     border: none;
@@ -141,4 +145,10 @@ button{
     padding: 1rem;
     border-radius: 2rem;
     width: 100%;
+    font-weight: 700;
+    
+}
+
+button:hover{
+    background-color: hsl(224, 31%, 34%);
 }
